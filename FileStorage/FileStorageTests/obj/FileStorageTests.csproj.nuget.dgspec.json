@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjEpam\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj": {}
+    "D:\\Project\\FileStorage\\FileStorageTests\\FileStorageTests.csproj": {}
   },
   "projects": {
-    "D:\\ProjEpam\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
+    "D:\\Project\\FileStorage\\DAL\\DAL.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\ProjEpam\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\Project\\FileStorage\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\ProjEpam\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj",
+        "projectPath": "D:\\Project\\FileStorage\\DAL\\DAL.csproj",
         "frameworks": {
           "net48": {
             "projectReferences": {}
@@ -19,14 +19,14 @@
         "net48": {}
       }
     },
-    "D:\\ProjEpam\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj": {
+    "D:\\Project\\FileStorage\\FileStorageTests\\FileStorageTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjEpam\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj",
+        "projectUniqueName": "D:\\Project\\FileStorage\\FileStorageTests\\FileStorageTests.csproj",
         "projectName": "FileStorageTests",
-        "projectPath": "D:\\ProjEpam\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj",
+        "projectPath": "D:\\Project\\FileStorage\\FileStorageTests\\FileStorageTests.csproj",
         "packagesPath": "C:\\Users\\38066\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjEpam\\FileStorageProject\\FileStorage\\FileStorageTests\\obj\\",
+        "outputPath": "D:\\Project\\FileStorage\\FileStorageTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -47,8 +47,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ProjEpam\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\ProjEpam\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj"
+              "D:\\Project\\FileStorage\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Project\\FileStorage\\DAL\\DAL.csproj"
               }
             }
           }
