@@ -1,0 +1,45 @@
+<div class="navbar-fixed">
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" routerLink="/">File Storage From Murk</a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse-4">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a routerLink="/">Home</a></li>
+          <li><a routerLink="/about">About</a></li>
+          <li><a routerLink="/shared-files">Shared files</a></li>
+          <li *ngIf="isLoggedIn"><a routerLink="/my-files">My files</a></li>
+          <li *ngIf="isLoggedIn"><a routerLink="/my-account">My account</a></li>
+          <li *ngIf="!isLoggedIn">
+            <a
+              style="margin-left: 100px"
+              class="btn btn-default btn-circle"
+              routerLink="/login"
+              >LogIn <i class=""></i>
+            </a>
+          </li>
+          <li *ngIf="!isLoggedIn">
+            <a class="btn btn-default btn-circle" routerLink="/registration"
+              >Registration <i class=""></i>
+            </a>
+          </li>
+          <li *ngIf="isLoggedIn">
+            <a
+              style="margin-left: 30px"
+              class="btn btn-default btn-circle"
+              (click)="logout()"
+              data-toggle="collapse"
+              aria-expanded="false"
+              aria-controls="nav-collapse4"
+              >LogOut <i class=""></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+  <!-- /.navbar -->
+</div>

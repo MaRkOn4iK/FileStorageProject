@@ -1,0 +1,234 @@
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\appsettings.json
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\PL.exe
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\PL.deps.json
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\PL.runtimeconfig.json
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\PL.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\PL.pdb
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\obj\Debug\net6.0\PL.csproj.AssemblyReference.cache
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\obj\Debug\net6.0\PL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\obj\Debug\net6.0\PL.AssemblyInfoInputs.cache
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\obj\Debug\net6.0\PL.AssemblyInfo.cs
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\obj\Debug\net6.0\PL.csproj.CoreCompileInputs.cache
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\obj\Debug\net6.0\PL.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\obj\Debug\net6.0\PL.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\obj\Debug\net6.0\scopedcss\bundle\PL.styles.css
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\obj\Debug\net6.0\PL.csproj.CopyComplete
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\obj\Debug\net6.0\PL.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\obj\Debug\net6.0\refint\PL.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\obj\Debug\net6.0\PL.pdb
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\obj\Debug\net6.0\PL.genruntimeconfig.cache
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\obj\Debug\net6.0\ref\PL.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\BLL.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\DAL.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\BLL.pdb
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\DAL.pdb
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\PL\bin\Debug\net6.0\DAL.dll.config
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\appsettings.Development.json
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\appsettings.json
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\PL.exe
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\PL.deps.json
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\PL.runtimeconfig.json
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\PL.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\PL.pdb
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\EntityFramework.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\System.CodeDom.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\BLL.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\DAL.dll
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\BLL.pdb
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\DAL.pdb
+D:\EpamProject\FileStorage\PL\bin\Debug\net6.0\DAL.dll.config
+D:\EpamProject\FileStorage\PL\obj\Debug\net6.0\PL.csproj.AssemblyReference.cache
+D:\EpamProject\FileStorage\PL\obj\Debug\net6.0\PL.GeneratedMSBuildEditorConfig.editorconfig
+D:\EpamProject\FileStorage\PL\obj\Debug\net6.0\PL.AssemblyInfoInputs.cache
+D:\EpamProject\FileStorage\PL\obj\Debug\net6.0\PL.AssemblyInfo.cs
+D:\EpamProject\FileStorage\PL\obj\Debug\net6.0\PL.csproj.CoreCompileInputs.cache
+D:\EpamProject\FileStorage\PL\obj\Debug\net6.0\staticwebassets.build.json
+D:\EpamProject\FileStorage\PL\obj\Debug\net6.0\staticwebassets.development.json
+D:\EpamProject\FileStorage\PL\obj\Debug\net6.0\scopedcss\bundle\PL.styles.css
+D:\EpamProject\FileStorage\PL\obj\Debug\net6.0\PL.csproj.CopyComplete
+D:\EpamProject\FileStorage\PL\obj\Debug\net6.0\PL.dll
+D:\EpamProject\FileStorage\PL\obj\Debug\net6.0\refint\PL.dll
+D:\EpamProject\FileStorage\PL\obj\Debug\net6.0\PL.pdb
+D:\EpamProject\FileStorage\PL\obj\Debug\net6.0\PL.genruntimeconfig.cache
+D:\EpamProject\FileStorage\PL\obj\Debug\net6.0\ref\PL.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\appsettings.Development.json
+D:\Project\FileStorage\PL\bin\Debug\net6.0\appsettings.json
+D:\Project\FileStorage\PL\bin\Debug\net6.0\PL.exe
+D:\Project\FileStorage\PL\bin\Debug\net6.0\PL.deps.json
+D:\Project\FileStorage\PL\bin\Debug\net6.0\PL.runtimeconfig.json
+D:\Project\FileStorage\PL\bin\Debug\net6.0\PL.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\PL.pdb
+D:\Project\FileStorage\PL\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\EntityFramework.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\System.CodeDom.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\BLL.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\DAL.dll
+D:\Project\FileStorage\PL\bin\Debug\net6.0\BLL.pdb
+D:\Project\FileStorage\PL\bin\Debug\net6.0\DAL.pdb
+D:\Project\FileStorage\PL\bin\Debug\net6.0\DAL.dll.config
+D:\Project\FileStorage\PL\obj\Debug\net6.0\PL.csproj.AssemblyReference.cache
+D:\Project\FileStorage\PL\obj\Debug\net6.0\PL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\FileStorage\PL\obj\Debug\net6.0\PL.AssemblyInfoInputs.cache
+D:\Project\FileStorage\PL\obj\Debug\net6.0\PL.AssemblyInfo.cs
+D:\Project\FileStorage\PL\obj\Debug\net6.0\PL.csproj.CoreCompileInputs.cache
+D:\Project\FileStorage\PL\obj\Debug\net6.0\staticwebassets.build.json
+D:\Project\FileStorage\PL\obj\Debug\net6.0\staticwebassets.development.json
+D:\Project\FileStorage\PL\obj\Debug\net6.0\scopedcss\bundle\PL.styles.css
+D:\Project\FileStorage\PL\obj\Debug\net6.0\PL.csproj.CopyComplete
+D:\Project\FileStorage\PL\obj\Debug\net6.0\PL.dll
+D:\Project\FileStorage\PL\obj\Debug\net6.0\refint\PL.dll
+D:\Project\FileStorage\PL\obj\Debug\net6.0\PL.pdb
+D:\Project\FileStorage\PL\obj\Debug\net6.0\PL.genruntimeconfig.cache
+D:\Project\FileStorage\PL\obj\Debug\net6.0\ref\PL.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\appsettings.Development.json
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\appsettings.json
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\PL.exe
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\PL.deps.json
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\PL.runtimeconfig.json
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\PL.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\PL.pdb
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\EntityFramework.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\System.CodeDom.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\BLL.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\DAL.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\BLL.pdb
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\DAL.pdb
+D:\ProjEpam\FileStorageProject\FileStorage\PL\bin\Debug\net6.0\DAL.dll.config
+D:\ProjEpam\FileStorageProject\FileStorage\PL\obj\Debug\net6.0\PL.csproj.AssemblyReference.cache
+D:\ProjEpam\FileStorageProject\FileStorage\PL\obj\Debug\net6.0\PL.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjEpam\FileStorageProject\FileStorage\PL\obj\Debug\net6.0\PL.AssemblyInfoInputs.cache
+D:\ProjEpam\FileStorageProject\FileStorage\PL\obj\Debug\net6.0\PL.AssemblyInfo.cs
+D:\ProjEpam\FileStorageProject\FileStorage\PL\obj\Debug\net6.0\PL.csproj.CoreCompileInputs.cache
+D:\ProjEpam\FileStorageProject\FileStorage\PL\obj\Debug\net6.0\staticwebassets.build.json
+D:\ProjEpam\FileStorageProject\FileStorage\PL\obj\Debug\net6.0\staticwebassets.development.json
+D:\ProjEpam\FileStorageProject\FileStorage\PL\obj\Debug\net6.0\scopedcss\bundle\PL.styles.css
+D:\ProjEpam\FileStorageProject\FileStorage\PL\obj\Debug\net6.0\PL.csproj.CopyComplete
+D:\ProjEpam\FileStorageProject\FileStorage\PL\obj\Debug\net6.0\PL.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\obj\Debug\net6.0\refint\PL.dll
+D:\ProjEpam\FileStorageProject\FileStorage\PL\obj\Debug\net6.0\PL.pdb
+D:\ProjEpam\FileStorageProject\FileStorage\PL\obj\Debug\net6.0\PL.genruntimeconfig.cache
+D:\ProjEpam\FileStorageProject\FileStorage\PL\obj\Debug\net6.0\ref\PL.dll

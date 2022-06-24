@@ -1,0 +1,67 @@
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\DAL\bin\Debug\DAL.dll.config
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\DAL\bin\Debug\DAL.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\DAL\bin\Debug\DAL.pdb
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\DAL\bin\Debug\EntityFramework.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\DAL\bin\Debug\EntityFramework.xml
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\DAL\obj\Debug\DAL.dll
+C:\Users\38066\OneDrive\Рабочий стол\EpamProject\FileStorage\DAL\obj\Debug\DAL.pdb
+D:\EpamProject\FileStorage\DAL\bin\Debug\DAL.dll.config
+D:\EpamProject\FileStorage\DAL\bin\Debug\DAL.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\DAL.pdb
+D:\EpamProject\FileStorage\DAL\bin\Debug\EntityFramework.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\EntityFramework.xml
+D:\EpamProject\FileStorage\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\EpamProject\FileStorage\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\EpamProject\FileStorage\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\EpamProject\FileStorage\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\EpamProject\FileStorage\DAL\obj\Debug\DAL.dll
+D:\EpamProject\FileStorage\DAL\obj\Debug\DAL.pdb
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Extensions.Options.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\System.Buffers.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\System.Collections.Immutable.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\System.ComponentModel.Annotations.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\System.Memory.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\System.Numerics.Vectors.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Extensions.Options.xml
+D:\EpamProject\FileStorage\DAL\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\EpamProject\FileStorage\DAL\bin\Debug\System.Buffers.xml
+D:\EpamProject\FileStorage\DAL\bin\Debug\System.Collections.Immutable.xml
+D:\EpamProject\FileStorage\DAL\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\EpamProject\FileStorage\DAL\bin\Debug\System.Memory.xml
+D:\EpamProject\FileStorage\DAL\bin\Debug\System.Numerics.Vectors.xml
+D:\EpamProject\FileStorage\DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\EpamProject\FileStorage\DAL\bin\Debug\System.Threading.Tasks.Extensions.xml

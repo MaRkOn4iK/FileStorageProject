@@ -1,0 +1,55 @@
+.back {
+  background-color: wheat;
+  width: 100%;
+  padding: 100px;
+}
+.back-image {
+  height: 600px;
+  background-image: url(../../resources/homePage.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+.back-image > h2 {
+  padding-top: 20%;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  color: wheat;
+  font-weight: bold;
+  font-size: 30pt;
+  text-align: center;
+}
+.container-wy-we {
+  color: #222;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.container-wy-we > h2 {
+  font-weight: bold;
+  font-size: 40pt;
+  margin-bottom: 50px;
+}
+.three-advantages {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.advantage {
+  -moz-box-shadow: 10px 10px 5px #222;
+  -webkit-box-shadow: 10px 10px 5px #222;
+  box-shadow: 10px 10px 5px #222;
+  background-color: rgb(246, 218, 58);
+  padding: 25px;
+  border: 2px solid #222;
+  border-radius: 10%;
+}
+.advantage > h2 {
+  font-size: 24pt;
+  margin-bottom: 5px;
+}
+.advantage > p {
+  margin-top: 50px;
+  font-size: 20pt;
+}

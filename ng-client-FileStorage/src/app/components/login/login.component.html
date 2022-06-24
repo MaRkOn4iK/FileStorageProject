@@ -1,0 +1,30 @@
+<div class="wheat-container">
+  <div class="container">
+    <mat-card class="mat-centred" *ngIf="!isLoggedIn">
+      <mat-form-field class="example-form-field">
+        <mat-label>Login</mat-label>
+        <input type="text" matInput #userLogin />
+      </mat-form-field>
+      <mat-form-field class="example-form-field">
+        <mat-label>Password</mat-label>
+        <input type="password" matInput #password />
+      </mat-form-field>
+      <button
+        style="margin-right: 20px"
+        mat-flat-button
+        color="primary"
+        (click)="back()"
+      >
+        Back
+      </button>
+      <button
+        style="margin-left: 20px"
+        mat-flat-button
+        color="primary"
+        (click)="login(userLogin.value, password.value)"
+      >
+        LogIn
+      </button>
+    </mat-card>
+  </div>
+</div>

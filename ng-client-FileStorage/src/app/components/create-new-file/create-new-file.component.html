@@ -1,0 +1,59 @@
+<div class="mainContainer">
+  <div class="whiteBack">
+    <form class="container" action="/action_page.php">
+      <div class="item">
+        <input
+          type="radio"
+          #public
+          name="type"
+          value="public"
+          [defaultChecked]="true"
+          (click)="FileType(public.value)"
+        />
+        <label>Create public file</label><br />
+      </div>
+      <div class="item">
+        <input
+          type="radio"
+          #private
+          name="type"
+          value="private"
+          (click)="FileType(private.value)"
+        />
+        <label>Create private file</label><br />
+      </div>
+    </form>
+    <div>
+      <input
+        type="file"
+        #file
+        multiple="multiple"
+        placeholder="Choose file"
+        (change)="uploadFile(file.files)"
+        style="display: none"
+      />
+      <button
+        style="margin-right: 20px"
+        mat-flat-button
+        color="primary"
+        (click)="file.click()"
+      >
+        Upload File
+      </button>
+      <button
+        style="margin-right: 20px"
+        mat-flat-button
+        color="primary"
+        (click)="back()"
+      >
+        Back
+      </button>
+    </div>
+    <div style="margin-top: 15px">
+      <span class="upload" *ngIf="progress > 0"> {{ progress }}% </span>
+      <span class="upload" *ngIf="message">
+        {{ message }}
+      </span>
+    </div>
+  </div>
+</div>

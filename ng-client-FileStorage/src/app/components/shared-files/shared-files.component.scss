@@ -1,0 +1,33 @@
+.container {
+  padding: 100px;
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+  background-color: wheat;
+  flex-direction: column;
+  z-index: -99;
+}
+.list-group-item {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: transparent;
+  font-size: 12pt;
+  border: none;
+}
+.list-item {
+  background-color: lightgray;
+  border-radius: 10%;
+  width: 300px;
+  height: 200px;
+  border: 2px solid #222;
+  margin: 10px;
+  padding: 10px;
+}
+.list-item > a {
+  float: right;
+  margin: 30px;
+}
+.list-item > a > svg {
+  height: 150%;
+  width: 150%;
+}

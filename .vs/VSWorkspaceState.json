@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\FileStorage",
+    "\\FileStorage\\FileStorageTests",
+    "\\FileStorage\\FileStorageTests\\DALTests"
+  ],
+  "SelectedNode": "\\FileStorage\\FileStorageTests\\DALTests\\UserRepositoryTests.cs",
+  "PreviewInSolutionExplorer": false
+}

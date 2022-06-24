@@ -1,0 +1,53 @@
+<div class="wheat-container">
+  <div class="container">
+    <mat-card class="mat-centred" *ngIf="!isLoggedIn">
+      <div>
+        <h2>Registration</h2>
+        <mat-form-field class="example-form-field">
+          <mat-label>Login</mat-label>
+          <input type="text" matInput #userLoginForRegist />
+        </mat-form-field>
+        <mat-form-field class="example-form-field">
+          <mat-label>Password</mat-label>
+          <input type="password" matInput #userPasswordForRegist />
+        </mat-form-field>
+        <mat-form-field class="example-form-field">
+          <mat-label>Name</mat-label>
+          <input type="text" matInput #userNameForRegist />
+        </mat-form-field>
+        <mat-form-field class="example-form-field">
+          <mat-label>Last name</mat-label>
+          <input type="text" matInput #userLastNameForRegist />
+        </mat-form-field>
+        <mat-form-field class="example-form-field">
+          <mat-label>Email</mat-label>
+          <input type="text" matInput #userEmailForRegist />
+        </mat-form-field>
+        <button
+          style="margin-right: 20px"
+          mat-flat-button
+          color="primary"
+          (click)="back()"
+        >
+          Back
+        </button>
+        <button
+          style="margin-left: 20px"
+          mat-flat-button
+          color="primary"
+          (click)="
+            regist(
+              userLoginForRegist.value,
+              userPasswordForRegist.value,
+              userNameForRegist.value,
+              userLastNameForRegist.value,
+              userEmailForRegist.value
+            )
+          "
+        >
+          Registration
+        </button>
+      </div>
+    </mat-card>
+  </div>
+</div>
