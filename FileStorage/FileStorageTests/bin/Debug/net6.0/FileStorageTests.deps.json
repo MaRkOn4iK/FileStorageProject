@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "FileStorageTests/1.0.0": {
         "dependencies": {
+          "BLL": "1.0.0",
           "DAL": "1.0.0",
           "EntityFramework": "6.4.4",
           "Microsoft.NET.Test.Sdk": "17.1.0",
@@ -881,6 +882,15 @@
           "System.Xml.ReaderWriter": "4.0.11"
         }
       },
+      "BLL/1.0.0": {
+        "dependencies": {
+          "DAL": "1.0.0",
+          "EntityFramework": "6.4.4"
+        },
+        "runtime": {
+          "BLL.dll": {}
+        }
+      },
       "DAL/1.0.0": {
         "runtime": {
           "DAL.dll": {}
@@ -1362,6 +1372,11 @@
       "sha512": "sha512-Mk2mKmPi0nWaoiYeotq1dgeNK1fqWh61+EK+w4Wu8SWuTYLzpUnschb59bJtGywaPq7SmTuPf44wrXRwbIrukg==",
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
+    },
+    "BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "DAL/1.0.0": {
       "type": "project",

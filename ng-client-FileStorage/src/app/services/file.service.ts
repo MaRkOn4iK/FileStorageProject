@@ -18,6 +18,24 @@ export class FileService {
       `${this.apiUrl}api/File/GetSceletonOfPublicFiles`
     );
   }
+Download(fileId:Number) :Observable<any>
+{
+  const requestOptions: Object = {
+    headers: new HttpHeaders().append(
+      'Authorization',
+      `Bearer ` + localStorage.getItem(ACCESS_TOKEN_KEY)
+    ),
+    
+  };
+  return this.http.get<any>(
+    `${this.apiUrl}api/File/GetPrivateFile/${localStorage.getItem('LoginName')}/${fileId}`,
+    requestOptions
+  );
+
+}
+
+
+
 
   GetSceletonOfAllFiles(): Observable<any[]> {
     const requestOptions: Object = {

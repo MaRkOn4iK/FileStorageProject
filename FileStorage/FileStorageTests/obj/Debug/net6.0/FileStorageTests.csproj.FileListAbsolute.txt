@@ -351,3 +351,6 @@ D:\ProjEpam\FileStorageProject\FileStorage\FileStorageTests\obj\Debug\net6.0\ref
 D:\ProjEpam\FileStorageProject\FileStorage\FileStorageTests\obj\Debug\net6.0\FileStorageTests.pdb
 D:\ProjEpam\FileStorageProject\FileStorage\FileStorageTests\obj\Debug\net6.0\FileStorageTests.genruntimeconfig.cache
 D:\ProjEpam\FileStorageProject\FileStorage\FileStorageTests\obj\Debug\net6.0\ref\FileStorageTests.dll
+D:\Project\FileStorage\FileStorageTests\bin\Debug\net6.0\CoverletSourceRootsMapping
+D:\Project\FileStorage\FileStorageTests\bin\Debug\net6.0\BLL.dll
+D:\Project\FileStorage\FileStorageTests\bin\Debug\net6.0\BLL.pdb

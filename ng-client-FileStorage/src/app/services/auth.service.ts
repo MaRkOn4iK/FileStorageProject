@@ -70,6 +70,7 @@ export class AuthService {
       .pipe(
         tap((token) => {
           var tmp = token.toString();
+          
           localStorage.setItem(ACCESS_TOKEN_KEY, tmp);
           localStorage.setItem('LoginName', Username);
         })

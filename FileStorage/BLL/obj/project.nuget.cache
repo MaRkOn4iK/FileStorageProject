@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "64G0CpfT1RDddM8lcLoOXNKYj/ujKU2HqsWAMVXaoQot63UoWMObzKXj1yaFNBnY820S5V7FD3a9jfDJub0aQg==",
+  "dgSpecHash": "1x+g6AcnhHsH1wmbisvUaQsrWELGoTfiYhCPWTZuk26y8YKnKAex2Q54WZVrH1XpA+ETN8J6BbxtrRCFtSMWvg==",
   "success": true,
-  "projectFilePath": "D:\\ProjEpam\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj",
+  "projectFilePath": "D:\\Project\\FileStorage\\BLL\\BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\38066\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\38066\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

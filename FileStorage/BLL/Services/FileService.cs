@@ -70,7 +70,7 @@ namespace BLL.Services
                 IEnumerable<FullFileInfo>? tmpList = _unitOfWork.FullFileInfoRepository.GetAll();
                 foreach (FullFileInfo? item in tmpList)
                 {
-                    if (item.User == user)
+                    if (item.User.Login == user.Login)
                     {
                         result.Add(item);
                     }
@@ -96,7 +96,7 @@ namespace BLL.Services
                 IEnumerable<FullFileInfo>? tmpList = _unitOfWork.FullFileInfoRepository.GetAll();
                 foreach (FullFileInfo? item in tmpList)
                 {
-                    if (item.User == user && item.FileSecureLevel.SecureLevelName == "private")
+                    if (item.User.Login == user.Login && item.FileSecureLevel.SecureLevelName == "private")
                     {
                         result.Add(item);
                     }

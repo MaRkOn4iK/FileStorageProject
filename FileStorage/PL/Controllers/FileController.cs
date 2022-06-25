@@ -185,13 +185,14 @@ namespace PL.Controllers
                 {
                     return BadRequest("This file dont exist");
                 }
-                return File(result.File.FileStreamCol, "application/octet-stream", $"{result.File.FileName}.{result.File.FileType.TypeName}");
+                return Ok(new { result.File.FileStreamCol, result.File.FileName, result.File.FileType.TypeName });
             }
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
         }
+
         /// <summary>
         /// Delete file by id and user login for authorize user
         /// </summary>

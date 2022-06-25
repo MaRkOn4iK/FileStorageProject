@@ -36,11 +36,8 @@
         <p><strong>Create date: </strong>{{ c.createDate }}</p>
         <p><strong>File name: </strong>{{ c.fileName }}</p>
         <p><strong>Type: </strong>{{ c.fileSecureLevel }}</p>
-        <a
-          href="https://localhost:44331/api/File/GetPrivateFile/{{
-            c.username
-          }}/{{ c.id }}"
-          ><svg
+        <a  (click)="download(c.id)">
+          <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
@@ -53,8 +50,8 @@
             />
             <path
               d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"
-            /></svg
-        ></a>
+            /></svg>
+          </a>
         <a (click)="deleteItem(c.id)"
           ><svg
             xmlns="http://www.w3.org/2000/svg"
@@ -70,8 +67,8 @@
             <path
               fill-rule="evenodd"
               d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"
-            /></svg
-        ></a>
+            /></svg>
+      </a>
       </div>
       <ng-template #none style="display: none"></ng-template>
     </div>
@@ -79,14 +76,12 @@
   <div id="divList" class="list-group-item publicItems">
     <div *ngFor="let c of filesCurrent">
       <div class="list-item" *ngIf="c.fileSecureLevel == 'public'; else none">
-        <p>Autor: {{ c.username }}</p>
-        <p>Create date: {{ c.createDate }}</p>
-        <p>File name: {{ c.fileName }}</p>
-        <p>Type: {{ c.fileSecureLevel }}</p>
+        <p><strong>Autor: </strong>{{ c.username }}</p>
+        <p><strong>Create date: </strong>{{ c.createDate }}</p>
+        <p><strong>File name: </strong>{{ c.fileName }}</p>
+        <p><strong>Type: </strong>{{ c.fileSecureLevel }}</p>
         <a
-          href="https://localhost:44331/api/File/GetPrivateFile/{{
-            c.username
-          }}/{{ c.id }}"
+        (click)="download(c.id)"
           ><svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -100,8 +95,8 @@
             />
             <path
               d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"
-            /></svg
-        ></a>
+            /></svg>
+          </a>
         <a (click)="deleteItem(c.id)"
           ><svg
             xmlns="http://www.w3.org/2000/svg"
@@ -117,8 +112,8 @@
             <path
               fill-rule="evenodd"
               d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"
-            /></svg
-        ></a>
+            /></svg>
+          </a>
       </div>
       <ng-template #none style="display: none"></ng-template>
     </div>

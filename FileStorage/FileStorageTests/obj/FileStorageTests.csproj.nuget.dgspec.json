@@ -4,6 +4,74 @@
     "D:\\Project\\FileStorage\\FileStorageTests\\FileStorageTests.csproj": {}
   },
   "projects": {
+    "D:\\Project\\FileStorage\\BLL\\BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\FileStorage\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "D:\\Project\\FileStorage\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\38066\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\FileStorage\\BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\38066\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Project\\FileStorage\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Project\\FileStorage\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Project\\FileStorage\\DAL\\DAL.csproj": {
       "restore": {
         "projectUniqueName": "D:\\Project\\FileStorage\\DAL\\DAL.csproj",
@@ -47,6 +115,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\Project\\FileStorage\\BLL\\BLL.csproj": {
+                "projectPath": "D:\\Project\\FileStorage\\BLL\\BLL.csproj"
+              },
               "D:\\Project\\FileStorage\\DAL\\DAL.csproj": {
                 "projectPath": "D:\\Project\\FileStorage\\DAL\\DAL.csproj"
               }

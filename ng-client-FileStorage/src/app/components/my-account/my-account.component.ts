@@ -26,10 +26,10 @@ export class MyAccountComponent implements OnInit {
       next: (data: any) => {
         this.Name = data.name;
         this.LastName = data.lastName;
-        this.Login = data.login;
+        this.Login = data.username;
         this.Password = data.password;
         this.PasswordForCheck = data.password;
-        this.Email = data.email;
+        this.Email = data.email;     
       },
     });
   }

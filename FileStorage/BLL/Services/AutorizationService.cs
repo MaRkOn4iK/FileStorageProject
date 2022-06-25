@@ -73,7 +73,7 @@ namespace BLL.Services
             if (string.IsNullOrEmpty(login) || login.Length < 3)
                 throw new FileStorageException("This login is invalid");
             if (string.IsNullOrEmpty(password) || password.Length < 5)
-                throw new FileStorageException("This unreliable is invalid");
+                throw new FileStorageException("This password unreliable");
             if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(lastName))
                 throw new FileStorageException("Please input correct Name and Last Name");
             if (email == null || email.Length < 10 || !email.Contains('@'))

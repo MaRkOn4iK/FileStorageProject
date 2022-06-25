@@ -26,7 +26,6 @@ export class CreateNewFileComponent implements OnInit {
       return;
     }
     let fileToUpload = <File[]>files;
-    console.log(fileToUpload);
     const formData = new FormData();
     for (let i = 0; i < fileToUpload.length; i++) {
       formData.append('file', fileToUpload[i], fileToUpload[i].name);

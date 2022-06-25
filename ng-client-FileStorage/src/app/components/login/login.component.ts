@@ -12,6 +12,7 @@ export class LoginComponent implements OnInit {
     this.as.login(Username, Password).subscribe({
       next: () => {
         this.router.navigate(['']);
+        
       },
       error: () => {
         alert('Wrong login or password');
