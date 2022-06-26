@@ -49,10 +49,17 @@ export class MyAccountComponent implements OnInit {
         )
         .subscribe({
           next: () => {
+            localStorage.setItem('LoginName', this.Login);
             window.location.reload();
           },
           error: (err) => {
-            console.log(err);
+            if(err.status == 200)
+            {
+              localStorage.setItem('LoginName', this.Login);
+            window.location.reload();
+            }
+            else
+              console.log(err);
           },
         });
     } else alert('Incorrect password');

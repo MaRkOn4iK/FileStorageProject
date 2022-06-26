@@ -6891,11 +6891,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EpamProj\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj",
+      "projectUniqueName": "D:\\q\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj",
       "projectName": "FileStorageTests",
-      "projectPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj",
+      "projectPath": "D:\\q\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj",
       "packagesPath": "C:\\Users\\38066\\.nuget\\packages\\",
-      "outputPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\FileStorageTests\\obj\\",
+      "outputPath": "D:\\q\\FileStorageProject\\FileStorage\\FileStorageTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6916,14 +6916,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\EpamProj\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj": {
-              "projectPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj"
+            "D:\\q\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj": {
+              "projectPath": "D:\\q\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj"
             },
-            "D:\\EpamProj\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
-              "projectPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj"
+            "D:\\q\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\q\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj"
             },
-            "D:\\EpamProj\\FileStorageProject\\FileStorage\\PL\\PL.csproj": {
-              "projectPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\PL\\PL.csproj"
+            "D:\\q\\FileStorageProject\\FileStorage\\PL\\PL.csproj": {
+              "projectPath": "D:\\q\\FileStorageProject\\FileStorage\\PL\\PL.csproj"
             }
           }
         }

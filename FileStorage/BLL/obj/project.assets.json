@@ -1183,11 +1183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EpamProj\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj",
+      "projectUniqueName": "D:\\q\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj",
+      "projectPath": "D:\\q\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj",
       "packagesPath": "C:\\Users\\38066\\.nuget\\packages\\",
-      "outputPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\BLL\\obj\\",
+      "outputPath": "D:\\q\\FileStorageProject\\FileStorage\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1208,8 +1208,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\EpamProj\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
-              "projectPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj"
+            "D:\\q\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\q\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj"
             }
           }
         }

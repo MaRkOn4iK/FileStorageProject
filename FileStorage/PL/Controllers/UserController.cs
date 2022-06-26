@@ -45,11 +45,11 @@ namespace PL.Controllers
         /// <returns>Ok if success and bad request if not</returns>
         [HttpPost("ChageAllInfo")]
         [Authorize]
-        public IActionResult ChageAllInfo([FromBody] UserModelForFullUpdate user)
+        public async Task<IActionResult> ChageAllInfo([FromBody] UserModelForFullUpdate user)
         {
             try
             {
-                _userService.ChangeAll(user.Username, user.NewUsername, user.NewPassword, user.NewName, user.NewLastName, user.NewEmail);
+                await _userService.ChangeAll(user.Username, user.NewUsername, user.NewPassword, user.NewName, user.NewLastName, user.NewEmail);
                 return Ok("Success");
             }
             catch (Exception ex)
