@@ -4,6 +4,7 @@ using DAL.Data;
 using DAL.Interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using System.Text;
 
 namespace PL
@@ -42,6 +43,10 @@ namespace PL
             services.AddSingleton<IAutorizationService, AutorizationService>();
             services.AddSingleton<IUserService, UserService>();
             services.AddSingleton<IFileService, FileService>();
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -61,6 +66,11 @@ namespace PL
             .AllowAnyOrigin()
             .AllowAnyMethod()
             .AllowAnyHeader());
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+            });
             _ = app.UseHttpsRedirection();
             _ = app.UseStaticFiles();
 

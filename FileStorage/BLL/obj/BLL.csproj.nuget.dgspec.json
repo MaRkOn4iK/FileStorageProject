@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\FileStorage\\BLL\\BLL.csproj": {}
+    "D:\\EpamProj\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "D:\\Project\\FileStorage\\BLL\\BLL.csproj": {
+    "D:\\EpamProj\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\FileStorage\\BLL\\BLL.csproj",
+        "projectUniqueName": "D:\\EpamProj\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\Project\\FileStorage\\BLL\\BLL.csproj",
+        "projectPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\38066\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\FileStorage\\BLL\\obj\\",
+        "outputPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Project\\FileStorage\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\Project\\FileStorage\\DAL\\DAL.csproj"
+              "D:\\EpamProj\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj"
               }
             }
           }
@@ -51,6 +51,18 @@
             "EntityFramework": {
               "target": "Package",
               "version": "[6.4.4, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.3.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.3.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.3.1, )"
             }
           },
           "imports": [
@@ -72,11 +84,11 @@
         }
       }
     },
-    "D:\\Project\\FileStorage\\DAL\\DAL.csproj": {
+    "D:\\EpamProj\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\Project\\FileStorage\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\EpamProj\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\Project\\FileStorage\\DAL\\DAL.csproj",
+        "projectPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj",
         "frameworks": {
           "net48": {
             "projectReferences": {}
