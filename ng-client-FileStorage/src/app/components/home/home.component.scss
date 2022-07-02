@@ -53,3 +53,43 @@
   margin-top: 50px;
   font-size: 20pt;
 }
+@media screen and (max-width : 600px) {
+  .back {
+    background-color: wheat;
+    min-width: 100%;
+    min-height: 100%;
+    padding: 10px;
+    padding-top: 100px;
+  }
+  .back-image {
+    height: 400px;
+    width: 100%;
+    background-image: url(../../resources/homePage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+  }
+  .container-wy-we {
+    color: #222;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .three-advantages {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .advantage {
+    -moz-box-shadow: 10px 10px 5px #222;
+    -webkit-box-shadow: 10px 10px 5px #222;
+    box-shadow: 10px 10px 5px #222;
+    background-color: rgb(246, 218, 58);
+    padding: 25px;
+    margin: 15px;
+    border: 2px solid #222;
+    border-radius: 10%;
+  }
+}

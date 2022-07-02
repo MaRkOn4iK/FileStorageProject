@@ -17,3 +17,47 @@
   height: 100%;
   background-color: wheat;
 }
+.btn1
+{
+  margin-right: 20px
+}
+.btn2
+{
+  margin-left: 20px; margin-right: 20px
+}
+.btn3
+{
+  margin-left: 20px
+}
+@media screen and (max-width : 600px) {
+  .container {
+    margin-top: 100px;
+    width: 90%;
+  }
+  .wheat-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: wheat;
+  }
+  .buttons
+  {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .btn1
+  {
+    margin: 0;
+  }
+  .btn2
+  {
+    margin: 0;
+  }
+  .btn3
+  {
+    margin: 0;
+  }
+}

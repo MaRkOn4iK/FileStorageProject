@@ -31,3 +31,20 @@
   height: 150%;
   width: 150%;
 }
+@media screen and (max-width : 600px) {
+  .container {
+    padding: 10px;
+    padding-top: 120px;
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+    background-color: wheat;
+    flex-direction: column;
+    z-index: -99;
+  }
+  .list-item {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+

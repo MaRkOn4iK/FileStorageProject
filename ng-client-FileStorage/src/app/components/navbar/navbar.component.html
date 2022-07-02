@@ -13,8 +13,7 @@
           <li *ngIf="isLoggedIn"><a routerLink="/my-account">My account</a></li>
           <li *ngIf="!isLoggedIn">
             <a
-              style="margin-left: 100px"
-              class="btn btn-default btn-circle"
+              class="btn btn-default btn-circle bttn"
               routerLink="/login"
               >LogIn <i class=""></i>
             </a>
@@ -26,8 +25,7 @@
           </li>
           <li *ngIf="isLoggedIn">
             <a
-              style="margin-left: 30px"
-              class="btn btn-default btn-circle"
+              class="btn btn-default btn-circle btttn"
               (click)="logout()"
               data-toggle="collapse"
               aria-expanded="false"

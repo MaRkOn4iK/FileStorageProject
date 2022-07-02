@@ -28,8 +28,9 @@
           <mat-label>Email</mat-label>
           <input type="text" matInput #userEmailFor [(ngModel)]="Email" />
         </mat-form-field>
+        <div class="buttons">
         <button
-          style="margin-right: 20px"
+        class="btn1"
           mat-flat-button
           color="primary"
           (click)="back()"
@@ -37,7 +38,7 @@
           Back
         </button>
         <button
-          style="margin-left: 20px; margin-right: 20px"
+        class="btn2"
           mat-flat-button
           color="primary"
           (click)="deleteAccount()"
@@ -45,13 +46,14 @@
           Delete account
         </button>
         <button
-          style="margin-left: 20px"
+        class="btn3"
           mat-flat-button
           color="primary"
           (click)="update()"
         >
           Update
         </button>
+      </div>
       </div>
     </mat-card>
   </div>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j613WKx0N0b2Mgc40svOVCS4bnIEw5illutOqQFHluIG4S2U09+kPFAP859MIS6JABuCSm9V11rtKWD81rfZPg==",
+  "dgSpecHash": "4OGW94PRXOPf46L8QRpiQQx0YUG2GEQb+DSqWkyp6xQGMS9PdlpfZEnrWEGXhfxhFkIsljWbaOQON5dpuxhEYg==",
   "success": true,
-  "projectFilePath": "D:\\EP\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj",
+  "projectFilePath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\38066\\.nuget\\packages\\castle.core\\5.0.0\\castle.core.5.0.0.nupkg.sha512",
     "C:\\Users\\38066\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",

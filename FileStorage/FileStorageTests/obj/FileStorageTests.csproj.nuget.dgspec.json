@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\EP\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj": {}
+    "D:\\EpamProj\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj": {}
   },
   "projects": {
-    "D:\\EP\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj": {
+    "D:\\EpamProj\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EP\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj",
+        "projectUniqueName": "D:\\EpamProj\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\EP\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj",
+        "projectPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\38066\\.nuget\\packages\\",
-        "outputPath": "D:\\EP\\FileStorageProject\\FileStorage\\BLL\\obj\\",
+        "outputPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\EP\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\EP\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj"
+              "D:\\EpamProj\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj"
               }
             }
           }
@@ -84,11 +84,11 @@
         }
       }
     },
-    "D:\\EP\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
+    "D:\\EpamProj\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\EP\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\EpamProj\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\EP\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj",
+        "projectPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj",
         "frameworks": {
           "net48": {
             "projectReferences": {}
@@ -99,14 +99,14 @@
         "net48": {}
       }
     },
-    "D:\\EP\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj": {
+    "D:\\EpamProj\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EP\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj",
+        "projectUniqueName": "D:\\EpamProj\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj",
         "projectName": "FileStorageTests",
-        "projectPath": "D:\\EP\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj",
+        "projectPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj",
         "packagesPath": "C:\\Users\\38066\\.nuget\\packages\\",
-        "outputPath": "D:\\EP\\FileStorageProject\\FileStorage\\FileStorageTests\\obj\\",
+        "outputPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\FileStorageTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -127,14 +127,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\EP\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj": {
-                "projectPath": "D:\\EP\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj"
+              "D:\\EpamProj\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj": {
+                "projectPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj"
               },
-              "D:\\EP\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\EP\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj"
+              "D:\\EpamProj\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj"
               },
-              "D:\\EP\\FileStorageProject\\FileStorage\\PL\\PL.csproj": {
-                "projectPath": "D:\\EP\\FileStorageProject\\FileStorage\\PL\\PL.csproj"
+              "D:\\EpamProj\\FileStorageProject\\FileStorage\\PL\\PL.csproj": {
+                "projectPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\PL\\PL.csproj"
               }
             }
           }
@@ -213,14 +213,14 @@
         }
       }
     },
-    "D:\\EP\\FileStorageProject\\FileStorage\\PL\\PL.csproj": {
+    "D:\\EpamProj\\FileStorageProject\\FileStorage\\PL\\PL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EP\\FileStorageProject\\FileStorage\\PL\\PL.csproj",
+        "projectUniqueName": "D:\\EpamProj\\FileStorageProject\\FileStorage\\PL\\PL.csproj",
         "projectName": "PL",
-        "projectPath": "D:\\EP\\FileStorageProject\\FileStorage\\PL\\PL.csproj",
+        "projectPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\PL\\PL.csproj",
         "packagesPath": "C:\\Users\\38066\\.nuget\\packages\\",
-        "outputPath": "D:\\EP\\FileStorageProject\\FileStorage\\PL\\obj\\",
+        "outputPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\PL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -241,11 +241,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\EP\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj": {
-                "projectPath": "D:\\EP\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj"
+              "D:\\EpamProj\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj": {
+                "projectPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj"
               },
-              "D:\\EP\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\EP\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj"
+              "D:\\EpamProj\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\EpamProj\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj"
               }
             }
           }
