@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O/hUxydxrxC+941qxTG12/hf1qHAE9KatIQnan2wnldYLt8nRGTl3ihh3vzJDA1mRHtEjTiZYl0MhTFijmlNMQ==",
+  "dgSpecHash": "Fp44xIv+vtq2fD37R38id4+Ca091i9lpGWOIIINfvl1SbL9RekfkY+dCoyuc1qB3Hi14WGC4Q5DJeWUKzcjByg==",
   "success": true,
-  "projectFilePath": "D:\\q\\FileStorageProject\\FileStorage\\PL\\PL.csproj",
+  "projectFilePath": "D:\\EP\\FileStorageProject\\FileStorage\\PL\\PL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\38066\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\38066\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.5\\microsoft.aspnetcore.authentication.jwtbearer.6.0.5.nupkg.sha512",

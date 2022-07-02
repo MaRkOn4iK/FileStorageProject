@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\q\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj": {}
+    "D:\\EP\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "D:\\q\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj": {
+    "D:\\EP\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\q\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj",
+        "projectUniqueName": "D:\\EP\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\q\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj",
+        "projectPath": "D:\\EP\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\38066\\.nuget\\packages\\",
-        "outputPath": "D:\\q\\FileStorageProject\\FileStorage\\BLL\\obj\\",
+        "outputPath": "D:\\EP\\FileStorageProject\\FileStorage\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\q\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\q\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj"
+              "D:\\EP\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\EP\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj"
               }
             }
           }
@@ -84,11 +84,11 @@
         }
       }
     },
-    "D:\\q\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
+    "D:\\EP\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\q\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\EP\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\q\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj",
+        "projectPath": "D:\\EP\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj",
         "frameworks": {
           "net48": {
             "projectReferences": {}

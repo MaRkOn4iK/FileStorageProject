@@ -1,8 +1,4 @@
-import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
-import { Observable, tap } from 'rxjs';
-import { ACCESS_TOKEN_KEY } from 'src/app/services/auth.service';
 import { FileService } from 'src/app/services/file.service';
 @Component({
   selector: 'app-my-files',
@@ -15,8 +11,6 @@ export class MyFilesComponent implements OnInit {
   searchText = '';
   constructor(
     private fs: FileService,
-    private http: HttpClient,
-    private router: Router
   ) {}
   ngOnInit(): void {
     this.fs.GetSceletonOfAllFiles().subscribe({

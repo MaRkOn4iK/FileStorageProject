@@ -12,9 +12,10 @@ export class SharedFilesComponent implements OnInit {
   filesCurent: any[] = new Array();
   filesDefault: any[] = new Array();
   searchText = '';
-  constructor(private fs: FileService) {}
+  constructor(private fs: FileService) { }
 
   ngOnInit(): void {
+    
     this.fs.GetSceletonOfPublicFiles().subscribe({
       next: (data) => {
         data.forEach((element: any) => {
