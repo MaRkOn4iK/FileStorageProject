@@ -1,5 +1,6 @@
 ﻿using BLL.Interfaces;
-using BLL.Validation;
+using BLL.Validation.Exceptions;
+using BLL.Validation.UserValidators;
 using DAL.Entities;
 using DAL.Interfaces;
 
@@ -32,7 +33,7 @@ namespace BLL.Services
                 return currentUser;
             }
 
-            throw new FileStorageException("Incorrect login or password");
+            throw new AuthException("Incorrect login or password");
         }
         /// <summary>
         /// Get user by login
@@ -50,7 +51,7 @@ namespace BLL.Services
                 return currentUser;
             }
 
-            throw new FileStorageException("Incorrect login");
+            throw new AuthException("Incorrect login");
         }
         /// <summary>
         /// Registration new user
@@ -64,24 +65,14 @@ namespace BLL.Services
         /// <exception cref="FileStorageException">If one of the params is invalid</exception>
         public User Registration(string login, string password, string name, string lastName, string email)
         {
-            var tmpList = _unitOfWork.UserRepository.GetAll();
-            foreach (var item in tmpList)
+            if (UserValidator.RegistrationValidation(login, password, name, lastName, email, _unitOfWork))
             {
-                if (item.Login == login)
-                    throw new FileStorageException("This login is taken");
+                var user = new User { Login = login, Password = password, Email = email, Name = name, LastName = lastName };
+                _unitOfWork.UserRepository.Add(user);
+                _unitOfWork.SaveAsync();
+                return user;
             }
-            if (string.IsNullOrEmpty(login) || login.Length < 3)
-                throw new FileStorageException("This login is invalid");
-            if (string.IsNullOrEmpty(password) || password.Length < 5)
-                throw new FileStorageException("This password unreliable");
-            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(lastName))
-                throw new FileStorageException("Please input correct Name and Last Name");
-            if (email == null || email.Length < 10 || !email.Contains('@'))
-                throw new FileStorageException("This email is invalid");
-            var user = new User { Login = login, Password = password, Email = email, Name = name, LastName = lastName };
-            _unitOfWork.UserRepository.Add(user);
-            _unitOfWork.SaveAsync();
-            return user;
+            else throw new AuthException("Registration eror");
         }
     }
 }

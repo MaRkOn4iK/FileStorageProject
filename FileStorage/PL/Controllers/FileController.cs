@@ -1,4 +1,6 @@
 ﻿using BLL.Interfaces;
+using BLL.Validation;
+using BLL.Validation.Exceptions;
 using DAL.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -224,6 +226,8 @@ namespace PL.Controllers
         /// <returns>Collection models of files without array of bytes</returns>
         private static List<SceletonFileModel> CreateSceletonFromFullFileInfo(List<FullFileInfo> files)
         {
+            try
+            {
             List<SceletonFileModel> result = new List<SceletonFileModel>();
             foreach (var item in files)
             {
@@ -239,6 +243,12 @@ namespace PL.Controllers
             }
 
             return result;
+
+            }
+            catch (Exception ex)
+            {
+                throw new FileStorageException(ex.Message);
+            }
         }
     }
 }

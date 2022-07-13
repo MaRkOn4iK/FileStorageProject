@@ -9,18 +9,18 @@ namespace DAL.Data
     /// <summary>
     /// UnitOfWork class contains all repositories and used only one dbContext
     /// </summary>
-    public class UnitOfWork : IUnitOfWork, IDisposable
+    public class UnitOfWork : IUnitOfWork
     {
         private bool disposed = false;
 
         private readonly FileStorageContext _context;
 
-        private IRepository<File> _fileRepository;
+        private IRepository<Entities.File> _fileRepository;
         private IRepository<FileSecureLevel> _fileSecureLevelRepository;
         private IRepository<FileType> _fileTypeRepository;
         private IRepository<FullFileInfo> _fullFileInfoRepository;
         private IRepository<User> _userRepository;
-        public IRepository<File> FileRepository
+        public IRepository<Entities.File> FileRepository
         {
             get
             {
@@ -80,15 +80,6 @@ namespace DAL.Data
         {
 
             _context = Db;
-        }
-
-        public void Dispose()
-        {
-            if (!disposed)
-            {
-                _context.Dispose();
-            }
-            disposed = true;
         }
 
         /// <summary>

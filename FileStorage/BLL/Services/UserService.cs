@@ -1,5 +1,6 @@
 ﻿using BLL.Interfaces;
-using BLL.Validation;
+using BLL.Validation.Exceptions;
+using BLL.Validation.UserValidators;
 using DAL.Entities;
 using DAL.Interfaces;
 
@@ -23,16 +24,16 @@ namespace BLL.Services
         /// <exception cref="FileStorageException">if model or login or password is null</exception>
         public async Task AddAsync(User model)
         {
-            if (model == null)
-                throw new FileStorageException("model is null");
-            if (model.Login == null)
-                throw new FileStorageException("login is null");
-            if (model.Password == null)
-                throw new FileStorageException("password is null");
+
+
+
             try
             {
-                _unitOfWork.UserRepository.Add(model);
-                await _unitOfWork.SaveAsync();
+                if (UserValidator.RegistrationValidation(model.Login, model.Password, model.Name, model.LastName, model.Email, _unitOfWork))
+                {
+                    _unitOfWork.UserRepository.Add(model);
+                    await _unitOfWork.SaveAsync();
+                }
             }
             catch (Exception ex)
             {
@@ -53,25 +54,8 @@ namespace BLL.Services
         public async Task ChangeAll(string oldLogin, string newLogin, string newPassword, string newName, string newLastName, string newEmail)
         {
             var user = _unitOfWork.UserRepository.GetAll().Where(res => res.Login == oldLogin).FirstOrDefault();
-            if (user != null)
+            if (user != null && UserValidator.UserInformationChangedValidator(oldLogin, newLogin, newPassword, newName, newLastName, newEmail, _unitOfWork))
             {
-                var tmpList = _unitOfWork.UserRepository.GetAll();
-                if (oldLogin != newLogin)
-                {
-                    foreach (var item in tmpList)
-                    {
-                        if (item.Login == newLogin)
-                            throw new FileStorageException("This login is taken");
-                    }
-                }
-                if (string.IsNullOrEmpty(newLogin) || newLogin.Length < 3)
-                    throw new FileStorageException("This login is invalid");
-                if (string.IsNullOrEmpty(newPassword) || newPassword.Length < 5)
-                    throw new FileStorageException("This unreliable is invalid");
-                if (string.IsNullOrEmpty(newName) || string.IsNullOrEmpty(newLastName))
-                    throw new FileStorageException("Please input correct Name and Last Name");
-                if (newEmail == null || newEmail.Length < 10 || !newEmail.Contains('@'))
-                    throw new FileStorageException("This email is invalid");
                 user.Login = newLogin;
                 user.Password = newPassword;
                 user.Name = newName;
@@ -79,7 +63,7 @@ namespace BLL.Services
                 user.Email = newEmail;
                 await this.UpdateAsync(user);
             }
-            else throw new FileStorageException("This login is not exist");
+            else throw new AuthException("This login is not exist");
 
         }
         /// <summary>
@@ -129,7 +113,7 @@ namespace BLL.Services
                     _unitOfWork.UserRepository.DeleteById(modelId);
                     await _unitOfWork.SaveAsync();
                 }
-                else throw new FileStorageException("This login is not registred");
+                else throw new AuthException("This login is not registred");
             }
             catch (FileStorageException)
             {
@@ -181,16 +165,11 @@ namespace BLL.Services
         /// <exception cref="FileStorageException">If one of the user params is invalid</exception>
         public async Task UpdateAsync(User model)
         {
-            if (model == null)
-                throw new FileStorageException("model is null");
-            if (model.Login == null)
-                throw new FileStorageException("login is null");
-            if (model.Password == null)
-                throw new FileStorageException("password is null");
+
             try
             {
-                _unitOfWork.UserRepository.Update(model);
-                await _unitOfWork.SaveAsync();
+                    _unitOfWork.UserRepository.Update(model);
+                    await _unitOfWork.SaveAsync();
             }
             catch (Exception ex)
             {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\qwe\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj": {}
+    "D:\\SecondVersion\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj": {}
   },
   "projects": {
-    "D:\\qwe\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj": {
+    "D:\\SecondVersion\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\qwe\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj",
+        "projectUniqueName": "D:\\SecondVersion\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\qwe\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj",
+        "projectPath": "D:\\SecondVersion\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\38066\\.nuget\\packages\\",
-        "outputPath": "D:\\qwe\\FileStorageProject\\FileStorage\\BLL\\obj\\",
+        "outputPath": "D:\\SecondVersion\\FileStorageProject\\FileStorage\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\qwe\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\qwe\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj"
+              "D:\\SecondVersion\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\SecondVersion\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj"
               }
             }
           }
@@ -48,10 +48,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.4.4, )"
-            },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
               "version": "[6.3.1, )"
@@ -84,29 +80,84 @@
         }
       }
     },
-    "D:\\qwe\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
+    "D:\\SecondVersion\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\qwe\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\SecondVersion\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\qwe\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj",
+        "projectPath": "D:\\SecondVersion\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\38066\\.nuget\\packages\\",
+        "outputPath": "D:\\SecondVersion\\FileStorageProject\\FileStorage\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\38066\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
-          "net48": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
         }
       },
       "frameworks": {
-        "net48": {}
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
       }
     },
-    "D:\\qwe\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj": {
+    "D:\\SecondVersion\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\qwe\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj",
+        "projectUniqueName": "D:\\SecondVersion\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj",
         "projectName": "FileStorageTests",
-        "projectPath": "D:\\qwe\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj",
+        "projectPath": "D:\\SecondVersion\\FileStorageProject\\FileStorage\\FileStorageTests\\FileStorageTests.csproj",
         "packagesPath": "C:\\Users\\38066\\.nuget\\packages\\",
-        "outputPath": "D:\\qwe\\FileStorageProject\\FileStorage\\FileStorageTests\\obj\\",
+        "outputPath": "D:\\SecondVersion\\FileStorageProject\\FileStorage\\FileStorageTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -127,14 +178,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\qwe\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj": {
-                "projectPath": "D:\\qwe\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj"
+              "D:\\SecondVersion\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj": {
+                "projectPath": "D:\\SecondVersion\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj"
               },
-              "D:\\qwe\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\qwe\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj"
+              "D:\\SecondVersion\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\SecondVersion\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj"
               },
-              "D:\\qwe\\FileStorageProject\\FileStorage\\PL\\PL.csproj": {
-                "projectPath": "D:\\qwe\\FileStorageProject\\FileStorage\\PL\\PL.csproj"
+              "D:\\SecondVersion\\FileStorageProject\\FileStorage\\PL\\PL.csproj": {
+                "projectPath": "D:\\SecondVersion\\FileStorageProject\\FileStorage\\PL\\PL.csproj"
               }
             }
           }
@@ -149,11 +200,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.4.4, )"
-            },
             "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[6.0.6, )"
             },
@@ -213,14 +264,14 @@
         }
       }
     },
-    "D:\\qwe\\FileStorageProject\\FileStorage\\PL\\PL.csproj": {
+    "D:\\SecondVersion\\FileStorageProject\\FileStorage\\PL\\PL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\qwe\\FileStorageProject\\FileStorage\\PL\\PL.csproj",
+        "projectUniqueName": "D:\\SecondVersion\\FileStorageProject\\FileStorage\\PL\\PL.csproj",
         "projectName": "PL",
-        "projectPath": "D:\\qwe\\FileStorageProject\\FileStorage\\PL\\PL.csproj",
+        "projectPath": "D:\\SecondVersion\\FileStorageProject\\FileStorage\\PL\\PL.csproj",
         "packagesPath": "C:\\Users\\38066\\.nuget\\packages\\",
-        "outputPath": "D:\\qwe\\FileStorageProject\\FileStorage\\PL\\obj\\",
+        "outputPath": "D:\\SecondVersion\\FileStorageProject\\FileStorage\\PL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -241,11 +292,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\qwe\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj": {
-                "projectPath": "D:\\qwe\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj"
+              "D:\\SecondVersion\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj": {
+                "projectPath": "D:\\SecondVersion\\FileStorageProject\\FileStorage\\BLL\\BLL.csproj"
               },
-              "D:\\qwe\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\qwe\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj"
+              "D:\\SecondVersion\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\SecondVersion\\FileStorageProject\\FileStorage\\DAL\\DAL.csproj"
               }
             }
           }
@@ -260,10 +311,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.4.4, )"
-            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[6.0.5, )"

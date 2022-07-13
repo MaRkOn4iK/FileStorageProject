@@ -3,6 +3,7 @@ using BLL.Services;
 using DAL.Data;
 using DAL.Interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
@@ -21,6 +22,8 @@ namespace PL
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<FileStorageContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
             _ = services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
                 {
@@ -38,11 +41,10 @@ namespace PL
             _ = services.AddMvc().AddControllersAsServices();
             _ = services.AddControllers();
             _ = services.AddRazorPages();
-            services.AddSingleton<FileStorageContext>();
-            services.AddSingleton<IUnitOfWork, UnitOfWork>();
-            services.AddSingleton<IAutorizationService, AutorizationService>();
-            services.AddSingleton<IUserService, UserService>();
-            services.AddSingleton<IFileService, FileService>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IAutorizationService, AutorizationService>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IFileService, FileService>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });

@@ -1,0 +1,42 @@
+C:\Users\38066\OneDrive\Рабочий стол\Новая папка (2)\DAL\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\38066\OneDrive\Рабочий стол\Новая папка (2)\DAL\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\38066\OneDrive\Рабочий стол\Новая папка (2)\DAL\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\38066\OneDrive\Рабочий стол\Новая папка (2)\DAL\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+C:\Users\38066\OneDrive\Рабочий стол\Новая папка (2)\DAL\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\38066\OneDrive\Рабочий стол\Новая папка (2)\DAL\DAL\bin\Debug\net6.0\DAL.deps.json
+C:\Users\38066\OneDrive\Рабочий стол\Новая папка (2)\DAL\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+C:\Users\38066\OneDrive\Рабочий стол\Новая папка (2)\DAL\DAL\bin\Debug\net6.0\DAL.dll
+C:\Users\38066\OneDrive\Рабочий стол\Новая папка (2)\DAL\DAL\bin\Debug\net6.0\DAL.pdb
+C:\Users\38066\OneDrive\Рабочий стол\Новая папка (2)\DAL\DAL\obj\Debug\net6.0\DAL.dll
+C:\Users\38066\OneDrive\Рабочий стол\Новая папка (2)\DAL\DAL\obj\Debug\net6.0\refint\DAL.dll
+C:\Users\38066\OneDrive\Рабочий стол\Новая папка (2)\DAL\DAL\obj\Debug\net6.0\DAL.pdb
+C:\Users\38066\OneDrive\Рабочий стол\Новая папка (2)\DAL\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+C:\Users\38066\OneDrive\Рабочий стол\Новая папка (2)\DAL\DAL\obj\Debug\net6.0\ref\DAL.dll
+D:\q\FileStorageProject\FileStorage\DAL\bin\Debug\net6.0\DAL.deps.json
+D:\q\FileStorageProject\FileStorage\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+D:\q\FileStorageProject\FileStorage\DAL\bin\Debug\net6.0\DAL.dll
+D:\q\FileStorageProject\FileStorage\DAL\bin\Debug\net6.0\DAL.pdb
+D:\q\FileStorageProject\FileStorage\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+D:\q\FileStorageProject\FileStorage\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\q\FileStorageProject\FileStorage\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+D:\q\FileStorageProject\FileStorage\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+D:\q\FileStorageProject\FileStorage\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+D:\q\FileStorageProject\FileStorage\DAL\obj\Debug\net6.0\DAL.dll
+D:\q\FileStorageProject\FileStorage\DAL\obj\Debug\net6.0\refint\DAL.dll
+D:\q\FileStorageProject\FileStorage\DAL\obj\Debug\net6.0\DAL.pdb
+D:\q\FileStorageProject\FileStorage\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+D:\q\FileStorageProject\FileStorage\DAL\obj\Debug\net6.0\ref\DAL.dll
+D:\SecondVersion\FileStorageProject\FileStorage\DAL\bin\Debug\net6.0\DAL.deps.json
+D:\SecondVersion\FileStorageProject\FileStorage\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+D:\SecondVersion\FileStorageProject\FileStorage\DAL\bin\Debug\net6.0\DAL.dll
+D:\SecondVersion\FileStorageProject\FileStorage\DAL\bin\Debug\net6.0\DAL.pdb
+D:\SecondVersion\FileStorageProject\FileStorage\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+D:\SecondVersion\FileStorageProject\FileStorage\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\SecondVersion\FileStorageProject\FileStorage\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+D:\SecondVersion\FileStorageProject\FileStorage\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+D:\SecondVersion\FileStorageProject\FileStorage\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+D:\SecondVersion\FileStorageProject\FileStorage\DAL\obj\Debug\net6.0\DAL.dll
+D:\SecondVersion\FileStorageProject\FileStorage\DAL\obj\Debug\net6.0\refint\DAL.dll
+D:\SecondVersion\FileStorageProject\FileStorage\DAL\obj\Debug\net6.0\DAL.pdb
+D:\SecondVersion\FileStorageProject\FileStorage\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+D:\SecondVersion\FileStorageProject\FileStorage\DAL\obj\Debug\net6.0\ref\DAL.dll

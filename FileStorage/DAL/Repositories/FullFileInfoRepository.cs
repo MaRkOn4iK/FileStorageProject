@@ -1,10 +1,7 @@
 ﻿using DAL.Data;
 using DAL.Entities;
 using DAL.Interfaces;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace DAL.Repositories
 {
@@ -35,12 +32,17 @@ namespace DAL.Repositories
 
         public IEnumerable<FullFileInfo> GetAll()
         {
-            return context.FullFileInfo.Include(x => x.User).Include(x => x.File).Include(x => x.FileSecureLevel);
+            var tmp = context.FullFileInfo.Include(x => x.User).Include(x => x.File).Include(x => x.FileSecureLevel).Include(x=>x.File.FileType);
+            foreach (var item in tmp)
+            {
+                Console.WriteLine(item);
+            }
+            return tmp;
         }
 
         public async Task<FullFileInfo> GetByIdAsync(int id)
         {
-            return await context.FullFileInfo.FindAsync(id);
+            return context.FullFileInfo.Where(r=>r.Id==id).Include(x => x.User).Include(x => x.File).Include(x => x.FileSecureLevel).Include(x => x.File.FileType).First();
         }
 
         public void Update(FullFileInfo entity)

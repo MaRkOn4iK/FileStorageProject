@@ -1,5 +1,4 @@
 ﻿using DAL.Entities;
-using System.Threading.Tasks;
 
 namespace DAL.Interfaces
 {
@@ -8,7 +7,7 @@ namespace DAL.Interfaces
     /// </summary>
     public interface IUnitOfWork
     {
-        IRepository<File> FileRepository { get; }
+        IRepository<Entities.File> FileRepository { get; }
         IRepository<FileSecureLevel> FileSecureLevelRepository { get; }
         IRepository<FileType> FileTypeRepository { get; }
         IRepository<FullFileInfo> FullFileInfoRepository { get; }

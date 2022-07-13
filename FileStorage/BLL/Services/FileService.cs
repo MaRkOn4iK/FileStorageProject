@@ -1,5 +1,5 @@
 ﻿using BLL.Interfaces;
-using BLL.Validation;
+using BLL.Validation.Exceptions;
 using DAL.Entities;
 using DAL.Interfaces;
 

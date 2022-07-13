@@ -1,5 +1,5 @@
 ﻿using BLL.Services;
-using BLL.Validation;
+using BLL.Validation.Exceptions;
 using DAL.Data;
 using DAL.Entities;
 using DAL.Interfaces;
@@ -19,37 +19,18 @@ namespace FileStorageTests.BLLTests
         new User { Login = "", Password = null, Name = "qwe", Email = "mark@gmail.com", LastName = "qwe" },
 
         };
-        private FakeDbSet<User> userDbSet;
-        private Mock<FileStorageContext> contextMock;
-        private UserRepository repository;
-        Mock<IUnitOfWork> uow;
-        UserService us;
-        [SetUp]
-        public void Reload()
-        {
-            userDbSet = new FakeUserDbSet();
-            contextMock = new Mock<FileStorageContext>();
-            contextMock.Setup(dbContext => dbContext.User).Returns(userDbSet);
-            repository = new UserRepository(contextMock.Object);
-            SeedData();
-            uow = new Mock<IUnitOfWork>();
-            uow.Setup(res => res.UserRepository).Returns(repository);
-            us = new UserService(uow.Object);
-        }
-        private void SeedData()
-        {
-            repository.Add(new User { Id = 1, Login = "MaRkOn4iK", Password = "Mark123123", LastName = "Amosov", Name = "Mark", Email = "Mark@gmail.com" });
-            repository.Add(new User { Id = 2, Login = "Deniska", Password = "Deniska12345", LastName = "Lipov", Name = "Denis", Email = "Denis@gmail.com" });
-            repository.Add(new User { Id = 3, Login = "Kirryha", Password = "Kirryha54321", LastName = "Zolov", Name = "Kirill", Email = "Kirill@gmail.com" });
-            repository.Add(new User { Id = 4, Login = "Irishka", Password = "Irka15144", LastName = "Kolova", Name = "Irina", Email = "Irina@gmail.com" });
-        }
-
+        
         [TestCaseSource(nameof(UsersWithNullField))]
         public async Task UserService_AddAsync_ThrowFileStorageException(User obj)
         {
             try
             {
-                await us.AddAsync(obj);
+            using var context = new FileStorageContext(FakeDbContext.GetUnitTestDbOptions());
+            UserRepository repository = new UserRepository(context);
+            var uow = new Mock<IUnitOfWork>();
+            uow.Setup(res => res.UserRepository).Returns(repository);
+            var us = new UserService(uow.Object);
+            await us.AddAsync(obj);
                 Assert.Fail();
             }
             catch (FileStorageException)
@@ -67,8 +48,14 @@ namespace FileStorageTests.BLLTests
         {
             try
             {
-                await us.AddAsync(new User { Login = "qwe", Password = "qwe", Name = "qwe", Email = "qwe", LastName = "qwe" });
-                Assert.That(us.GetAll().Count,Is.EqualTo(5));
+                using var context = new FileStorageContext(FakeDbContext.GetUnitTestDbOptions());
+                UserRepository repository = new UserRepository(context);
+                var uow = new Mock<IUnitOfWork>();
+                uow.Setup(res => res.UserRepository).Returns(repository);
+                var us = new UserService(uow.Object);
+                await us.AddAsync(new User { Login = "NewLogin", Password = "NewPassword", Name = "NewName", Email = "NewEmail@gmail.com", LastName = "NewLastName" });
+                context.SaveChanges();
+                Assert.That(us.GetAll().Count, Is.EqualTo(3));
             }
             catch
             {
@@ -81,7 +68,13 @@ namespace FileStorageTests.BLLTests
         {
             try
             {
-                await us.ChangeAll("MaRkOn4iK","Markkkk", "Mark123123", "Amosov", "Mark", "Mark@gmail.com");
+                using var context = new FileStorageContext(FakeDbContext.GetUnitTestDbOptions());
+                UserRepository repository = new UserRepository(context);
+                var uow = new Mock<IUnitOfWork>();
+                uow.Setup(res => res.UserRepository).Returns(repository);
+                var us = new UserService(uow.Object);
+                await us.ChangeAll("Murk", "Markkkk", "Mark123123", "Amosov", "Mark", "Mark@gmail.com");
+                context.SaveChanges();
                 var tmp = await us.GetByIdAsync(1);
                 Assert.That(tmp.Login, Is.EqualTo("Markkkk"));
             }
@@ -97,10 +90,16 @@ namespace FileStorageTests.BLLTests
         {
             try
             {
-                await us.ChangeAll("MaRkOn4iK", obj.Login, obj.Password,obj.Name, obj.LastName, obj.Email);
+                using var context = new FileStorageContext(FakeDbContext.GetUnitTestDbOptions());
+                UserRepository repository = new UserRepository(context);
+                var uow = new Mock<IUnitOfWork>();
+                uow.Setup(res => res.UserRepository).Returns(repository);
+                var us = new UserService(uow.Object);
+                await us.ChangeAll("Murk", obj.Login, obj.Password, obj.Name, obj.LastName, obj.Email);
+                context.SaveChanges();
                 Assert.Fail();
             }
-            catch(FileStorageException)
+            catch (AuthException)
             {
 
             }
@@ -115,8 +114,14 @@ namespace FileStorageTests.BLLTests
         {
             try
             {
+                using var context = new FileStorageContext(FakeDbContext.GetUnitTestDbOptions());
+                UserRepository repository = new UserRepository(context);
+                var uow = new Mock<IUnitOfWork>();
+                uow.Setup(res => res.UserRepository).Returns(repository);
+                var us = new UserService(uow.Object);
                 await us.DeleteAsync(1);
-                Assert.That(us.GetAll().Count, Is.EqualTo(3));
+                context.SaveChanges();
+                Assert.That(us.GetAll().Count, Is.EqualTo(1));
             }
             catch
             {
@@ -129,15 +134,16 @@ namespace FileStorageTests.BLLTests
         {
             try
             {
-                var FileDbSet = new FakeFullFileInfoDbSet();
-                contextMock.Setup(dbContext => dbContext.FullFileInfo).Returns(FileDbSet);
-                var Filerepository = new FullFileInfoRepository(contextMock.Object);
-                uow = new Mock<IUnitOfWork>();
-                uow.Setup(res => res.FullFileInfoRepository).Returns(Filerepository);
+                using var context = new FileStorageContext(FakeDbContext.GetUnitTestDbOptions());
+                UserRepository repository = new UserRepository(context);
+                FullFileInfoRepository repository1 = new FullFileInfoRepository(context);
+                var uow = new Mock<IUnitOfWork>();
                 uow.Setup(res => res.UserRepository).Returns(repository);
-                us = new UserService(uow.Object);
-                await us.DeleteAsyncByLogin("Deniska");
-                Assert.That(us.GetAll().Count, Is.EqualTo(3));
+                uow.Setup(res => res.FullFileInfoRepository).Returns(repository1);
+                var us = new UserService(uow.Object);
+                await us.DeleteAsyncByLogin("Ksy");
+                context.SaveChanges();
+                Assert.That(us.GetAll().Count, Is.EqualTo(1));
             }
             catch
             {
